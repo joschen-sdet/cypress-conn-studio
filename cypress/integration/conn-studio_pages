@@ -1,0 +1,27 @@
+connectors page
+    connector
+        new-connector/editor
+            editor
+                parser configuration setup
+                    csv
+                    json
+                    hl7
+                    fixed_width
+            code
+        edit/editor
+            same as new-connector/editor
+
+
+ingestions page
+
+data-marts page
+    data-mart
+        view/details
+        view/refresh-jobs
+        data-marts/{mart_id}/edit
+        run Data mart
+            Editor
+            Code
+    data-marts/register (Register New Data Mart)
+refresh jobs page
+    job details

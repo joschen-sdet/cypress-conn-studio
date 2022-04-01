@@ -1,0 +1,13 @@
+[
+    {"id": 1,  "username": "abacus_admin",   "roleName": "abacus_administrator",   "lastName": "admin"},
+    {"id": 2,  "username": "sec_admin",      "roleName": "security_administrator", "lastName": "secadmin"},
+    {"id": 5,  "username": "datagov_user",   "roleName": "data_governance_user",   "lastName": "governance"},
+    {"id": 7,  "username": "std_user",       "roleName": "standard_user",          "lastName": "stduser"},
+
+    {"id": 11, "username": "abacus_dataops", "roleName": "abacus_dataops",         "lastName": "dataops"},
+    {"id": 12, "username": "abacus_support", "roleName": "abacus_support",         "lastName": "support"},
+    {"id": 13, "username": "implementer",    "roleName": "abacus_implementer",     "lastName": "implementer"},
+    {"id": 14, "username": "abacus_sec",     "roleName": "abacus_securityadmin",   "lastName": "abacussec"},
+    {"id": 15, "username": "plat_admin",     "roleName": "platform_administrator", "lastName": "platadmin"},
+    {"id": 16, "username": "dataops_nophi",  "roleName": "abacus_dataops_nophi",   "lastName": "opsnophi"}
+]

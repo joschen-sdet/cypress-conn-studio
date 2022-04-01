@@ -1,0 +1,13 @@
+{
+    "viewportHeight": 864,
+    "viewportWidth": 1280,
+    "watchForFileChanges": false,
+    "reporter": "cypress-testrail-reporter",
+    "reporterOptions": {
+        "host": "https://abacusinsights.testrail.io/",
+        "username": "thetunnels@abacusinsights.com",
+        "password": "YNWApb8Ne3sxguc",
+        "projectId": 5,
+        "suiteId": 154
+    }
+}

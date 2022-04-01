@@ -1,0 +1,79 @@
+{
+    "encoding": "latin-1",
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "EntityType": {
+          "type": "string"
+        },
+        "IngestionID": {
+          "type": "string"
+        },
+        "BatchID": {
+          "type": "string"
+        },
+        "CorrelationID": {
+          "type": "string"
+        },
+        "Source": {
+          "type": "string"
+        },
+        "SourceID": {
+          "type": "string"
+        },
+        "ID": {
+          "type": "string"
+        },
+        "IsAuthoritative": {
+          "type": "boolean"
+        },
+        "SchemaVersion": {
+          "type": "string"
+        },
+        "SourceTimestamp": {
+          "type": "string"
+        },
+        "ConsumeTimestamp": {
+          "type": "string"
+        },
+        "PartialUpdate": {
+          "type": "boolean"
+        },
+        "LogicalDeleted": {
+          "type": "boolean",
+          "default": false
+        },
+        "HardDeleted": {
+          "type": "boolean",
+          "default": false
+        },
+        "Tenant": {
+          "type": "string"
+        },
+        "HashID": {
+          "type": "string"
+        },
+        "MemberLevel": {
+          "type": "string"
+        },
+        "MemberType": {
+          "type": "string"
+        },
+        "MemberCategory": {
+          "type": "string"
+        },
+        "MemberCategoryID": {
+          "type": "string"
+        },
+        "MemberCategoryPrefix": {
+          "type": "string"
+        },
+        "SubscriberRelationship": {
+          "type": "string"
+        },
+        "ParentGroupSourceID": {
+          "type": "string"
+        }
+      }
+    }
+  }

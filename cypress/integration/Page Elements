@@ -1,0 +1,72 @@
+//Temporary Elements page
+
+
+// top navigation bar
+// cy.get('.sc-gojNiO')
+    // cy.get('#svg-icon-home > svg')
+    // cy.get('#svg-icon-database > svg')
+    // cy.get('#svg-icon-chart-bar > svg')
+    // cy.get('#svg-icon-snowflake > svg')
+    // cy.get('#svg-icon-plug > svg')
+    // cy.get('#svg-icon-shield > svg')
+
+// side navigation bar within connector-studio, not for home page.
+// It is displayed for new 
+//  * New Connector
+//  * Edit Connector
+//  * Ingestions
+//  * Data Marts
+//  * Refresh Jobs 
+    // cy.get('.sc-pDbHj')
+    // cy.get('#connectors-navbar-link')
+    // cy.get('#ingestions-navbar-link')
+    // cy.get('#data-mart-navbar-link')
+    // cy.get('#refresh-jobs-navbar-link')
+
+// New Connector spec
+// Editor tab
+    // text inputs (Connector properties)
+        // Connector Name
+        // Source
+        // Version
+        // Manifest Pattern
+        // Toggle for AutoIngest, should be False
+    // Input Domains table
+        // Add New cmd button
+        // Table header
+            // Name
+            // Partition Size
+            // Format
+            // Parser Config
+            // Allow File Omission
+            // Allow Zero Record OK
+        // Pager for Input Domains
+            // Pager info should have 1 - 1 of 1 items
+        // Table Row 1 exists
+            // Text input for Name
+            // Edit Spin for Partition Size
+            // Selector for Format
+            // Edit cmd button for Parser Config, Should be disabled
+            // Toggle switch for Allow File Omission, Should be False
+            // Toggle switch for Allow Zero Record, should be False
+    // Output Domains table
+        // Add New cmd button
+        // Pager for Output Domains
+        // pager info should have 0 - 0 of 0 items
+        // Table header
+            // Domain Entity
+    // Cancel cmd button
+    // Save cmd button
+// Code tab
+    // text input for code
+    // Cancel cmd button
+    // Save cmd button
+
+
+// connector-studio base
+// connector table row
+// action icon run
+cy.get('[href="/connector-studio/connectors/conn_csv/run"] > svg > path')
+
+// action icon edit
+cy.get('[href="/connector-studio/connectors/conn_csv/edit"] > svg')
